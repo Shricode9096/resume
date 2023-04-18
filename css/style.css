@@ -1,0 +1,114 @@
+/* Basic styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #333;
+	color: #fff;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+nav li {
+	padding: 10px;
+}
+nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+nav li a:hover {
+	background-color: #fff;
+	color: #333;
+	border-radius: 5px;
+}
+main {
+	padding: 20px;
+}
+section {
+	margin-bottom: 40px;
+}
+h1 {
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+p {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+ul {
+	margin-bottom: 10px;
+}
+li {
+	margin-bottom: 5px;
+}
+
+/* Card styles */
+.card {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	position: relative;
+	transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.card::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+.card:hover::before {
+	opacity: 1;
+}
+.card h2 {
+	margin-top: 0;
+}
+.card p {
+	margin-bottom: 0;
+}
+
+/* Image styles */
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+/* Resume download button styles */
+#resume a {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+#resume a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
