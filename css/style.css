@@ -86,11 +86,12 @@ li {
 
 /* Image styles */
 img {
+	float: right;
 	display: block;
 	max-width: 30%;
 	max-height: auto;
 	height: auto;
-	margin-bottom: 10px;
+	margin: 0 0 10px 10px;
 }
 
 /* Resume download button styles */
