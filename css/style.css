@@ -87,8 +87,8 @@ li {
 /* Image styles */
 img {
 	display: block;
-	max-width: 100%;
-	max-height: 300px;
+	max-width: 30%;
+	max-height: auto;
 	height: auto;
 	margin-bottom: 10px;
 }
